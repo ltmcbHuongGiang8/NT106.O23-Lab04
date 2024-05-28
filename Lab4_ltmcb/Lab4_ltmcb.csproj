@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DD52C15B-2E99-40E3-84FF-E6510BDB6CE1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Lab4_ltmcb</RootNamespace>
+    <AssemblyName>Lab4_ltmcb</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HtmlAgilityPack, Version=1.11.61.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>packages\HtmlAgilityPack.1.11.61\lib\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.Core, Version=1.0.2478.35, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Web.WebView2.1.0.2478.35\lib\net45\Microsoft.Web.WebView2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.WinForms, Version=1.0.2478.35, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Web.WebView2.1.0.2478.35\lib\net45\Microsoft.Web.WebView2.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.Wpf, Version=1.0.2478.35, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Web.WebView2.1.0.2478.35\lib\net45\Microsoft.Web.WebView2.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bai1_Lab4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bai1_Lab4.Designer.cs">
+      <DependentUpon>Bai1_Lab4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bai2_Lab4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bai2_Lab4.Designer.cs">
+      <DependentUpon>Bai2_Lab4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bai3_Lab4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bai3_Lab4.Designer.cs">
+      <DependentUpon>Bai3_Lab4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bai4_Lab4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bai4_Lab4.Designer.cs">
+      <DependentUpon>Bai4_Lab4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bai5_Lab4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bai5_Lab4.Designer.cs">
+      <DependentUpon>Bai5_Lab4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bai6_Lab4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bai6_Lab4.Designer.cs">
+      <DependentUpon>Bai6_Lab4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bai7_Lab4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bai7_Lab4.Designer.cs">
+      <DependentUpon>Bai7_Lab4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hienthi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hienthi.Designer.cs">
+      <DependentUpon>Hienthi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="ProgressBarWithLabel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProgressBarWithLabel.Designer.cs">
+      <DependentUpon>ProgressBarWithLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Viewsource.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Viewsource.Designer.cs">
+      <DependentUpon>Viewsource.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Bai1_Lab4.resx">
+      <DependentUpon>Bai1_Lab4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bai2_Lab4.resx">
+      <DependentUpon>Bai2_Lab4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bai3_Lab4.resx">
+      <DependentUpon>Bai3_Lab4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bai4_Lab4.resx">
+      <DependentUpon>Bai4_Lab4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bai5_Lab4.resx">
+      <DependentUpon>Bai5_Lab4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bai6_Lab4.resx">
+      <DependentUpon>Bai6_Lab4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hienthi.resx">
+      <DependentUpon>Hienthi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressBarWithLabel.resx">
+      <DependentUpon>ProgressBarWithLabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Viewsource.resx">
+      <DependentUpon>Viewsource.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="packages\Microsoft.Web.WebView2.1.0.2478.35\build\Microsoft.Web.WebView2.targets" Condition="Exists('packages\Microsoft.Web.WebView2.1.0.2478.35\build\Microsoft.Web.WebView2.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.Web.WebView2.1.0.2478.35\build\Microsoft.Web.WebView2.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.Web.WebView2.1.0.2478.35\build\Microsoft.Web.WebView2.targets'))" />
+  </Target>
+</Project>
